@@ -1,0 +1,26 @@
+{
+  "name": "krasota",
+  "version": "1.0.0",
+  "description": "full stack javascript app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barreyro/krasota.git"
+  },
+  "author": "Stephanie Barreyro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barreyro/krasota/issues"
+  },
+  "homepage": "https://github.com/barreyro/krasota#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "knex": "^0.12.6",
+    "sqlite": "^2.3.0"
+  }
+}
